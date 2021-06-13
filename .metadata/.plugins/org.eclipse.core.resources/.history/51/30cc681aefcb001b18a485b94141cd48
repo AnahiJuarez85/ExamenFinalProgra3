@@ -1,0 +1,4 @@
+insert into paciente(id, NOMBRE, NOMBREDOS, APELLIDO, APELLIDODOS, EDAD) values (1, 'Darwin', 'Juan', 'Perez', 'Morales', 34);
+insert into paciente(id, NOMBRE, NOMBREDOS, APELLIDO, APELLIDODOS, EDAD) values (1, 'Maria', 'Luisa', 'Peña', 'Lopez', 25);
+insert into paciente(id, NOMBRE, NOMBREDOS, APELLIDO, APELLIDODOS, EDAD) values (1, 'jose', 'Maria', 'Florez', 'Campo', 21);
+insert into cita(id,fecha, hora, paciente, estado, observaciones) values (2, '2021-03-27', '12:05', 'Jose', 'gripe' );
